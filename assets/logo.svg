@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Column Copy</title>
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="#252525"/>
+  <path d="M42 31H31V97H42M86 31H97V97H86" fill="none" stroke="#fafaf9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 44H78M50 56H72M50 83H78" fill="none" stroke="#fafaf9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M22 69H106" fill="none" stroke="#6380ff" stroke-width="4" stroke-linecap="round"/>
+</svg>

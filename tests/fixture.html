@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Column Copy test page</title>
+<style>
+  body { margin: 0; font: 16px/1.5 Arial, sans-serif; }
+  aside { position: absolute; width: 150px; top: 20px; }
+  #left { left: 20px; } #right { left: 810px; }
+  main { margin-left: 240px; width: 440px; }
+  #bottom { margin-top: 1800px; }
+  #clipped { position:absolute; top:280px; left:240px; font:20px monospace; white-space:pre; }
+  #hidden { display:none; }
+</style>
+<aside id="left">LEFT SIDEBAR EXCLUDED</aside>
+<aside id="right">RIGHT SIDEBAR EXCLUDED</aside>
+<main>
+  <h1>The selected article</h1>
+  <p>First paragraph with <strong>bold text</strong> and a link.</p>
+  <p>Second paragraph.<br>Explicit new line.</p>
+  <p id="hidden">HIDDEN TEXT EXCLUDED</p>
+  <p style="visibility:hidden">INVISIBLE TEXT EXCLUDED</p>
+  <p style="opacity:0">TRANSPARENT TEXT EXCLUDED</p>
+  <input value="FORM VALUE EXCLUDED">
+  <div id="shadow-host"></div>
+  <p id="bottom">BOTTOM TEXT INCLUDED, even below the viewport.</p>
+  <p>Unicode survives: café 👩🏽‍💻 日本語.</p>
+</main>
+<div id="clipped">ABCDEFGHIJ</div>
+</html>
